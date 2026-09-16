@@ -98,5 +98,30 @@ fun PantallaEjercicio2(){
         Text(
             text = "19 años"
         )
+        Text(
+            text = "correo"
+        )
+        Text(
+            text = "[vacosta676@unab.edu.co]"
+        )
+        Text(
+            text = "ciudad"
+        )
+        Text(
+            text = "Cucuta, Colombia"
+        )
+        HorizontalDivider(
+            modifier = Modifier
+                .padding(
+                    top = 24.dp,
+                    bottom = 8.dp
+                )
+        )
+        Text(
+            text = "SOBRE MI MATERIA FAVORITA"
+        )
+        Text(
+            text = "Mi materia favorita son las ecuaciones diferenciales porque me permite comprender y resolver problemas relacionados con cambios y fenómenos de la vida real."
+        )
     }
 }
