@@ -56,13 +56,13 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun PantallaEjercicio2(){
     Column(
         modifier = Modifier
-            .padding(all = 8.dp)
+            .padding(all = 15.dp)
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(id = R.drawable.foto_perfil),
-            "foto_perfil",
+            painter = painterResource(id = R.drawable.foto_perfil1),
+            "foto_perfil1",
             modifier = Modifier
             .size(128.dp)
             .clip(CircleShape)
@@ -80,8 +80,9 @@ fun PantallaEjercicio2(){
         )
 
         Text(
-            text = "Nice work",
-            fontSize = 16.sp
+            text = "Ing de Sistemas Jr.",
+            fontSize = 16.sp,
+            color = Color.Blue
         )
     }
 }
